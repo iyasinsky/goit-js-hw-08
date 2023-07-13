@@ -16,6 +16,6 @@ const lastPosition = JSON.parse(
 if (lastPosition) {
   player
     .setCurrentTime(lastPosition)
-    .then(seconds => console.log(seconds))
+    .then(seconds => console.log('Продовжуємо з:', seconds))
     .catch(error => console.log(error));
 }

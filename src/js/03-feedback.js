@@ -35,7 +35,7 @@ function onFormSubmit(e) {
   e.preventDefault();
 
   console.log(formData);
-  // formData = {};
+  formData = {};
 
   e.target.reset();
 
